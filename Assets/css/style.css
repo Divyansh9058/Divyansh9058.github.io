@@ -183,6 +183,7 @@ header .navbar ul li a:hover {
   z-index: -1;
   margin: auto;
   width: fit-content;
+  height: 100%;
 }
 
 .home2::before {
