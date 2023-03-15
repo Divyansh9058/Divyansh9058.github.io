@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Shubham Bhati";
+            document.title = "Portfolio | Divyansh Goel";
             $("#favicon").attr("href", "https://th.bing.com/th/id/R.cda3b7d73ea9d27ebc57e69796622b87?rik=RBze9cBJjorqcA&riu=http%3a%2f%2fwww.icons101.com%2ficon_png%2fsize_512%2fid_32956%2fSb.png&ehk=8RXWPvUn08MryrnrIUwVTerw1MK%2fLsSOn6T2Qy7ED4E%3d&risl=&pid=ImgRaw&r=0");
         }
         else {
