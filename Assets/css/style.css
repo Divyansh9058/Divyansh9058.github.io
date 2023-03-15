@@ -184,6 +184,7 @@ header .navbar ul li a:hover {
   margin: auto;
   width: fit-content;
   height: 100%; */
+  margin: auto;
   z-index: -1;
   object-fit: cover;
   width: 100vw;
