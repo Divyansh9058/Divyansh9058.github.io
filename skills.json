@@ -12,14 +12,6 @@
         "icon": "js.png"
     },
     {
-        "name": "Java",
-        "icon": "java.png"
-    },
-    {
-        "name": "Spring Boot",
-        "icon": "springboot.png"
-    },
-        {
         "name": "Node JS",
         "icon": "nodejs.png"
     },
@@ -43,11 +35,6 @@
         "name": "VS Code",
         "icon": "vscode.png"
     },
-    {
-        "name": "Intellij IDEA",
-        "icon": "intellij.png"
-    },
-
       {
         "name": "GitHub",
         "icon": "github.png"
@@ -55,14 +42,7 @@
       {
         "name": "Replit",
         "icon": "replit.png"
-    },
-  
-  
-     {
-        "name": "Eclipse",
-        "icon": "eclipse.png"
     }
-    
 
     
 

@@ -11,6 +11,7 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -54,7 +55,7 @@ header {
   padding: 1.7rem 10%;
   height: 6.5rem;
   background-color: #0000006c;
-  box-shadow: 0 1px 4px rgba(128, 0, 255, 0.3);
+  box-shadow: 0 1px 4px rgb(18, 165, 250);
 }
 section {
   min-height: 100vh;
@@ -79,7 +80,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #fa1228;
 }
 header .navbar ul {
   list-style: none;
@@ -100,8 +101,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #0720ff;
-  border-bottom: 0.2rem solid #011aff;
+  color: #fa1228;
+  border-bottom: 0.2rem solid #fa1228;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -163,12 +164,7 @@ header .navbar ul li a:hover {
   }
 }
 /* hamburger icon ends */
-.back-video{
-  position: fixed;
-  z-index: -1;
-  margin: auto;
-  width: fit-content;
-}
+
 /* hero section starts*/
 .home2 {
   position: relative;
@@ -316,12 +312,6 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
   .home22 .btn {
     margin: 4rem 0;
   }
@@ -438,12 +428,6 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
   .about2 .row .image {
     margin-top: 2rem;
   }
@@ -522,14 +506,6 @@ header .navbar ul li a:hover {
 }
 /* skills media queries starts*/
    @media only screen and ( max-width : 620px) and ( min-width : 10px) {
-
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
-
   .skills2 .container {
     padding: 0;
     margin: 0;
@@ -546,12 +522,6 @@ header .navbar ul li a:hover {
   }
 }
    @media only screen and ( max-width : 800px) and ( min-width : 620px){
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
   .skills2 .container {
     padding: 0;
     margin: 0;
@@ -568,12 +538,6 @@ header .navbar ul li a:hover {
   }
 }
    @media only screen and ( max-width : 1000px) and ( min-width : 800px){
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
   .skills2 .container {
     padding: 0;
     margin: 0;
@@ -684,12 +648,6 @@ header .navbar ul li a:hover {
 
 
 @media only screen and ( max-width : 620px) and ( min-width : 10px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
 #tech2{
   display: none;
 }
@@ -701,12 +659,6 @@ header .navbar ul li a:hover {
 }
 }
    @media only screen and ( max-width : 800px) and ( min-width : 620px){
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
     #tech2{
   display: none;
 }
@@ -859,12 +811,6 @@ form .button-area {
 }
 /* contact section media queries starts */
 @media (max-width: 900px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
   .contact2 {
     min-height: 70vh;
   }
@@ -979,12 +925,6 @@ form .button-area {
   }
 }
 @media (max-width: 450px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
   .footer .box-container .box {
     margin: 1.5rem;
   }
@@ -999,12 +939,6 @@ form .button-area {
 
 /* common media queries starts*/
 @media (max-width: 450px) {
-  .back-video{
-    position: fixed;
-    z-index: -1;
-    margin: auto;
-    width: fit-content;
-  }
   html {
     font-size: 55%;
   }
@@ -1074,12 +1008,7 @@ form .button-area {
 
 
   @media only screen and ( max-width : 620px) and ( min-width : 10px) {
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
+
 #calendwer {
   display: none;
 }
@@ -1108,12 +1037,6 @@ form .button-area {
 
 }
    @media only screen and ( max-width : 800px) and ( min-width : 620px){
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
     #calendwer{
   display: none;
 
@@ -1138,12 +1061,6 @@ form .button-area {
 
 }
    @media only screen and ( max-width : 1300px) and ( min-width : 800px){
-    .back-video{
-      position: fixed;
-      z-index: -1;
-      margin: auto;
-      width: fit-content;
-    }
 
     #calendwer{
   display: none;
