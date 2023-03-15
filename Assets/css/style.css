@@ -38,7 +38,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #ee0606;
+  background: #ffea00;
 }
 
 
@@ -179,19 +179,11 @@ header .navbar ul li a:hover {
  background-attachment: fixed;
 }
 .back-video{
-  /* position: fixed;
-  
+  position: fixed;
+  z-index: -1;
   margin: auto;
   width: fit-content;
-  height: 100%; */
-  margin: auto;
-  z-index: -1;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* height: fit-content; */
 }
 
 .home2::before {
