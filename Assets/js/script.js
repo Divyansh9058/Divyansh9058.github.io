@@ -112,12 +112,12 @@ function showSkills(skills) {
 function showTools(tools) {
     let toolsContainer = document.getElementById("toolsContainer");
     let toolHTML = "";
-    tools.forEach(skill => {
+    tools.forEach(tools => {
         toolHTML += `
         <div class="bar">
               <div class="info skills-card">
-                <img class="skills-card-img" src="Assets/images/Skills/${skill.icon}" alt="skill" width="80"/>
-                <span class="skills-card-name" >${skill.name}</span>
+                <img class="skills-card-img" src="Assets/images/Skills/${tools.icon}" alt="skill" width="80"/>
+                <span class="skills-card-name" >${tools.name}</span>
               </div>
             </div>`
     });
