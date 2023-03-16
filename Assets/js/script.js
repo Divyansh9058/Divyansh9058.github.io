@@ -81,15 +81,18 @@ var typed = new Typed(".typing-text", {
 
 async function fetchData(type = "skills") {
     let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
+    type === "skills" ? response = await fetch("skills.json") : type ==="tools" ? response = await fetch("tools.json") :
         response = await fetch("./projects/projects.json")
     const data = await response.json();
     return data;
 }
 
-
+// async function fetchData(type = "tools") {
+//     let response
+//     type === "tools" ? response = await fetch("tools.json") : null
+//     const data = await response.json();
+//     return data;
+// }
 
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
@@ -98,12 +101,27 @@ function showSkills(skills) {
         skillHTML += `
         <div class="bar">
               <div class="info skills-card">
-                <img class="skills-card-img" src="Assets/images/Skills/${skill.icon}" alt="skill" width="50"/>
+                <img class="skills-card-img" src="Assets/images/Skills/${skill.icon}" alt="skill" width="100"/>
                 <span class="skills-card-name" >${skill.name}</span>
               </div>
             </div>`
     });
     skillsContainer.innerHTML = skillHTML;
+}
+
+function showTools(tools) {
+    let toolsContainer = document.getElementById("toolsContainer");
+    let toolHTML = "";
+    tools.forEach(skill => {
+        toolHTML += `
+        <div class="bar">
+              <div class="info skills-card">
+                <img class="skills-card-img" src="Assets/images/Skills/${skill.icon}" alt="skill" width="50"/>
+                <span class="skills-card-name" >${skill.name}</span>
+              </div>
+            </div>`
+    });
+    toolsContainer.innerHTML = toolHTML;
 }
 
 
@@ -156,6 +174,10 @@ function showProjects(projects) {
 
 fetchData().then(data => {
     showSkills(data);
+});
+
+fetchData("tools").then(data => {
+    showTools(data);
 });
 
 fetchData("projects").then(data => {

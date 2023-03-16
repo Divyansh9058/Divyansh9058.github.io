@@ -23,28 +23,26 @@
         "name": "DSA",
         "icon": "dsa.png"
     },
-    {
-        "name": "Git",
-        "icon": "git.png"
+         {
+        "name": "MongoDB",
+        "icon": "mongo.png"
+    },
+        {
+   "name": "Express",
+   "icon": "express.png"
     },
     {
-        "name": "Netlify",
-        "icon": "netlify.png"
-    },
+   "name": "React",
+   "icon": "react.png"
+}
+,
     {
-        "name": "VS Code",
-        "icon": "vscode.png"
-    },
-      {
-        "name": "GitHub",
-        "icon": "github.png"
-    },
-      {
-        "name": "Replit",
-        "icon": "replit.png"
-    }
-
+   "name": "Redis",
+   "icon": "redis.png"
+},
+{
+"name": "Socket.io",
+"icon": "socketio.png"
+}
     
-
-   
 ]

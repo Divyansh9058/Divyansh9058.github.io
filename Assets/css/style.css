@@ -333,9 +333,9 @@ header .navbar ul li a:hover {
 /* hero section end */
 
 /* about section starts */
-.about2 {
+/* .about2 {
   /* background: rgba(255, 255, 255, 0); */
-}
+
 .about2 .row {
   display: flex;
   flex-direction: row;
@@ -560,10 +560,10 @@ header .navbar ul li a:hover {
 /* skills section ends */
 
 /* work section starts */
-.work {
+/* .work {
   /* background: #010124; */
   /* background: linear-gradient(to bottom, #000031, #00002c); */
-}
+
 .work h2 {
   color: #fff;
   padding: 1rem;
