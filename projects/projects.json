@@ -14,7 +14,7 @@
   {
     "name": "Delicious Pizza(Dominos Clone)",
     "desc": "Delicious Pizza is a global pizza delivery and takeaway chain with a presence in over 90 countries. Customers can order pizzas, sides, desserts, and drinks online for delivery or pickup.",
-    "image": "delicious",
+    "image": "dominos",
     "stacks":"js,html,css,git,netlify,vscode",
     "links": {
       "view": "https://delicious-pizza.netlify.app",
