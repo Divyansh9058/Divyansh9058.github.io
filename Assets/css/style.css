@@ -486,7 +486,7 @@ header .navbar ul li a:hover {
   transition: 0.2s;
 }
 .skills2 .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  box-shadow: 0 8px 10px #fa1228 !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
 .skills2 .container .bar .info {
