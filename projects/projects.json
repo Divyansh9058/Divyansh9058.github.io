@@ -26,7 +26,7 @@
     "name": "Budget Tracking Application",
     "desc": "Budget Tracking Tpplication helps users stay on top of their finances by providing tools to track expenses and income, create custom budgets, and visualize their financial health in a user-friendly interface.",
     "image": "budget",
-     "stacks":"html,css,js,bootstrap,nodejs,express,mongodb,redis,git,,netlify,vscode",
+     "stacks":"html,css,js,bootstrap,nodejs,express,mongodb,redis,git,netlify,vscode",
     "links": {
       "view": "https://budget-buddy-777.netlify.app/",
       "code": "https://github.com/ankitamaddheshiya/honorable-furniture-4728"
