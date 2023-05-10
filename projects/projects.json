@@ -34,15 +34,15 @@
         "highlights" : ["User Dashboard looks quite attractive and user-friendly","Google Oauth login validation"]
   },
   {
-    "name": "Nykaa Clone",
-    "desc": "Nyka.com is an Indian online marketplace for beauty and wellness products. It offers a wide range of skincare, haircare, makeup, and personal care products from various brands.",
-    "image": "nyka",
-     "stacks":"js,html,css,git,netlify,vscode",
+    "name": "Rapid Chess",
+    "desc": "Rapid Chess is a dynamic real-time chess application that delivers an exhilarating gaming experience. With its sleek interface and intuitive controls, players engage in fast-paced matches, making strategic moves against opponents worldwide. Enjoy the thrill of lightning-fast chess games, where quick thinking and precision are the keys to victory.",
+    "image": "rapidchess",
+     "stacks":"html,css,js,git,bootstrap,nodejs,express,mongodb,redis,netlify,vscode",
     "links": {
-      "view": "https://nyka-777.netlify.app/",
-      "code": "https://github.com/Divyansh9058/jagged-insect-363"
+      "view": "https://rapid-chess-777.netlify.app/",
+      "code": "https://github.com/Divyansh9058/eight-soup-6404"
     },
-        "highlights" : ["On Landing page, product detail cards data Fetch through API.","Product Page with Filter by Product , Sort by Price"]
+        "highlights" : ["Two person play at single time from different places.","User SOCKET.IO for Real Time Application"]
   }
 ]
 
