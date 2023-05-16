@@ -987,7 +987,7 @@ form .button-area {
     background-color :#050f2c;
     padding: 30px 10px;
     border-radius: 40px;
-    color: black;
+    color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border: none;
    margin: 20px 0;
@@ -1098,6 +1098,6 @@ form .button-area {
 
 
 
-.contrib-column > .contrib-number{
+/* .contrib-column > .contrib-number{
   color: white;
-}
+} */
