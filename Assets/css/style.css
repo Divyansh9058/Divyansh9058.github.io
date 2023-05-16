@@ -1098,6 +1098,6 @@ form .button-area {
 
 
 
-.contrib-number .text-muted {
+.contrib-column > .contrib-number{
   color: white;
 }
