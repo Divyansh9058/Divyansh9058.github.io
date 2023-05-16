@@ -1094,3 +1094,10 @@ form .button-area {
     width: 100px;
     border-radius: 5px;
 }
+
+
+
+
+.contrib-number .text-muted {
+  color: white;
+}
