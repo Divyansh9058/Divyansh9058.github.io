@@ -28,14 +28,14 @@
     "image": "budget",
      "stacks":"html,css,js,bootstrap,nodejs,express,mongodb,redis,git,netlify,vscode",
     "links": {
-      "view": "https://budget-buddy-777.netlify.app/",
+      "view": "https://budgetbuddy-nu.vercel.app/",
       "code": "https://github.com/ankitamaddheshiya/honorable-furniture-4728"
     },
         "highlights" : ["User Dashboard looks quite attractive and user-friendly","Google Oauth login validation"]
   },
   {
     "name": "Rapid Chess",
-    "desc": "Rapid Chess is a dynamic real-time chess application that delivers an exhilarating gaming experience. With its sleek interface and intuitive controls, players engage in fast-paced matches, making strategic moves against opponents worldwide. Enjoy the thrill of lightning-fast chess games, where quick thinking and precision are the keys to victory.",
+    "desc": "Rapid Chess is a dynamic real-time chess application that delivers an exhilarating gaming experience. With its sleek interface and intuitive controls, players engage in fast-paced matches, making strategic moves against opponents worldwide.",
     "image": "rapidchess",
      "stacks":"html,css,js,git,bootstrap,nodejs,express,mongodb,redis,netlify,vscode",
     "links": {
