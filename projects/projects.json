@@ -6,7 +6,7 @@
     "image": "nyka",
      "stacks":"js,html,css,git,netlify,vscode",
     "links": {
-      "view": "https://nyka-777.netlify.app/",
+      "view": "https://nyka-clone-777.vercel.app/",
       "code": "https://github.com/Divyansh9058/jagged-insect-363"
     },
         "highlights" : ["On Landing page, product detail cards data Fetch through API.","Product Page with Filter by Product , Sort by Price"]
@@ -17,7 +17,7 @@
     "image": "dominos",
     "stacks":"js,html,css,git,netlify,vscode",
     "links": {
-      "view": "https://delicious-pizza.netlify.app",
+      "view": "https://dominos-clone-nu.vercel.app/",
       "code": "https://github.com/Divyansh9058/Dominos-Clone"
     },
     "highlights" : ["Login Functionality With OTP","Used the REST API to Fetch the data"]
@@ -39,7 +39,7 @@
     "image": "rapidchess",
      "stacks":"html,css,js,git,bootstrap,nodejs,express,mongodb,redis,netlify,vscode",
     "links": {
-      "view": "https://rapid-chess-777.netlify.app/",
+      "view": "https://rapid-chess-777.vercel.app/",
       "code": "https://github.com/Divyansh9058/eight-soup-6404"
     },
         "highlights" : ["Two person play at single time from different places.","User SOCKET.IO for Real Time Application"]
